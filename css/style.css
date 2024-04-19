@@ -114,8 +114,7 @@ div {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    width: 250;
-    mix-blend-mode: overlay;
+    width: 50;
 }
 
 .maggieMoo {
@@ -128,12 +127,17 @@ div {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    width: 250;
+    width: 50;
     font-size: 20px;
-    mix-blend-mode: exclusion;
-    width: 250;
 }
 
 p {
     color: aliceblue;
+}
+
+.cat2 {
+    color: rgb(255, 0, 0);
+    padding: 30px;
+    font-size: 100px;
+    position: absolute;
 }
