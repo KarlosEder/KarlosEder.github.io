@@ -70,8 +70,8 @@ table {
 
 .catI {
     position: absolute;
-    font-size: 80px;
-    padding-top: 120px;
+    font-size: 100px;
+    padding: 30px;
     mix-blend-mode: saturation;
     margin: auto;
     
