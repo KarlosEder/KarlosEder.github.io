@@ -46,8 +46,9 @@ table {
 
 /* Comments */
 
+
 .helloWorld {
-    color: rgb(106, 0, 255);
+    color: rgb(208, 174, 255);
     padding-left: 18px;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -65,14 +66,16 @@ table {
     margin-right: 20px;
     margin-bottom: 20px;
     width: 250;
+    mix-blend-mode: difference;
     
 }
 
 .catI {
+    color: white;
     position: absolute;
     font-size: 100px;
     padding: 30px;
-    mix-blend-mode: saturation;
+    mix-blend-mode: overlay;
     margin: auto;
     
 }
@@ -88,11 +91,17 @@ table {
     margin-right: 20px;
     margin-bottom: 20px;
     width: 250;
+    mix-blend-mode: difference;
 }
 
 .helloWorld2 {
-    color: rgb(255, 55, 0);
+    color: rgb(255, 104, 63);
     margin-top: 10px;
     margin-bottom: 5px;
     
 }
+
+body {
+    background-image: url(https://www.loomly.com/hs-fs/hubfs/Imported_Blog_Media/earth-Apr-03-2024-12-19-31-1897-AM.gif?width=540&height=540&name=earth-Apr-03-2024-12-19-31-1897-AM.gif) ;
+}
+
