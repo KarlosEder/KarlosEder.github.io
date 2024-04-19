@@ -20,7 +20,7 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
-/ HTML5 display-role reset for older browsers /
+/* / HTML5 display-role reset for older browsers / */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
@@ -100,7 +100,40 @@ table {
     
 }
 
-body {
+div {
     background-image: url(https://www.loomly.com/hs-fs/hubfs/Imported_Blog_Media/earth-Apr-03-2024-12-19-31-1897-AM.gif?width=540&height=540&name=earth-Apr-03-2024-12-19-31-1897-AM.gif) ;
 }
 
+.dogInter {
+    border: 5px solid rgb(202, 147, 112);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 250;
+    mix-blend-mode: overlay;
+}
+
+.maggieMoo {
+    border: 5px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 250;
+    font-size: 20px;
+    mix-blend-mode: exclusion;
+    width: 250;
+}
+
+p {
+    color: aliceblue;
+}
